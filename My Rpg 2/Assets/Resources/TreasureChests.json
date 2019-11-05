@@ -1,0 +1,28 @@
+﻿[
+  {
+    "Name": "Treasure Chest",
+    "Level": 1,
+    "ItemClass": [
+      {
+        "Name": "NoDrop",
+        "Weight": 1
+      },
+      {
+        "Name": "Tonic",
+        "Weight": 3
+      },
+      {
+        "Name": "Sword 1",
+        "Weight": 2
+      },
+      {
+        "Name": "Dagger",
+        "Weight": 1
+      },
+      {
+        "Name": "Helmet",
+        "Weight":  3
+      }
+    ]
+  }
+]

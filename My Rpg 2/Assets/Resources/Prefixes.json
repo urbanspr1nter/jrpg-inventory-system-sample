@@ -1,0 +1,112 @@
+﻿[
+  {
+    "Name": "NoPrefix",
+    "ParentItemClass": [ "Sword 1", "Dagger", "Helmet" ],
+    "Properties": [],
+    "Weight": 15,
+    "Value": {}
+  },
+  {
+    "Name": "Cracked",
+    "ParentItemClass": [ "Sword 1", "Dagger" ],
+    "Weight": 10,
+    "Properties": [
+      {
+        "Name": "ATK",
+        "Operation": "Multiply",
+        "Value": 0.5
+      }
+    ],
+    "Value": {
+      "Operation": "Multiply",
+      "Value": 0.5
+    }
+  },
+  {
+    "Name": "Deadly",
+    "ParentItemClass": [ "Sword 1", "Dagger" ],
+    "Weight": 5,
+    "Properties": [
+      {
+        "Name": "ATK",
+        "Operation": "Multiply",
+        "Value": 1.15
+      }
+    ],
+    "Value": {
+      "Operation": "Multiply",
+      "Value": 1.10
+    }
+  },
+  {
+    "Name": "Superior",
+    "ParentItemClass": [ "Sword 1", "Dagger" ],
+    "Weight": 7,
+    "Properties": [
+      {
+        "Name": "ATK",
+        "Value": 1
+      },
+      {
+        "Name": "DEF",
+        "Value": 2
+      }
+    ],
+    "Value": {
+      "Operation": "Multiply",
+      "Value": "1.00"
+    }
+  },
+  {
+    "Name": "Lucky",
+    "ParentItemClass": [ "Sword 1", "Dagger" ],
+    "Weight": 1,
+    "Properties": [
+      {
+        "Name": "ATK",
+        "Operation": "Multiply",
+        "Value": 1.15
+      },
+      {
+        "Name": "LUK",
+        "Value": 2
+      }
+    ],
+    "Value": {
+      "Operation": "Multiply",
+      "Value": 1.15
+    }
+  },
+  {
+    "Name": "Worn",
+    "ParentItemClass": [ "Helmet" ],
+    "Weight": 5,
+    "Properties": [
+      {
+        "Name": "DEF",
+        "Operation": "Multiply",
+        "Value": 0.75
+      }
+    ],
+    "Value": {
+      "Operation": "Multiply",
+      "Value": 0.5
+    }
+  },
+  {
+    "Name": "Marvelous",
+    "ParentItemClass": [ "Helmet" ],
+    "Weight": 5,
+    "Properties": [
+      {
+        "Name": "DEF",
+        "Operation": "Multiply",
+        "Value": 1.5
+      }
+    ],
+    "Value": {
+      "Operation": "Multiply",
+      "Value": 2
+    }
+  }
+]
